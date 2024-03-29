@@ -14,8 +14,7 @@ import net.minecraft.world.World;
 @Mixin(OozingStatusEffect.class)
 public class OozingStatusEffectMixin
 extends StatusEffect {
-
-    protected OozingStatusEffectMixin(StatusEffectCategory statusEffectCategory, int color) {
+  protected OozingStatusEffectMixin(StatusEffectCategory statusEffectCategory, int color) {
 		super(statusEffectCategory, color);
 	}
 

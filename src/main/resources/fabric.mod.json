@@ -1,31 +1,21 @@
 {
 	"schemaVersion": 1,
 	"id": "oozing-magma",
-	"version": "${version}",
 	"name": "Oozing Magma",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"A11v1r15"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/oozing-magma/icon.png",
+	"version": "${version}",
 	"environment": "*",
+	"license": "MIT",
+	"icon": "assets/oozing-magma/icon.png",
 	"entrypoints": {
 		"main": [
 			"net.a11v1r15.oozingmagma.OozingMagma"
 		]
 	},
-	"mixins": [
-		"oozing-magma.mixins.json",
-		{
-			"config": "oozing-magma.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/oozing-magma",
+		"sources": "https://github.com/A11v1r15/Oozing_magma",
+		"issues": "https://github.com/A11v1r15/Oozing_magma/issues"
+	},
 	"accessWidener" : "oozing-magma.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.15.7",
@@ -33,7 +23,11 @@
 		"java": ">=17",
 		"fabric-api": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"authors": [
+		"A11v1r15"
+	],
+	"description": "Atomic mod that makes the Oozing effect spawn Magma cubes in the Nether",
+	"mixins": [
+		"oozing-magma.mixins.json"
+	]
 }
