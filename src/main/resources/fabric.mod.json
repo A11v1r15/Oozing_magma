@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"net.a11v1r15.oozingmagma.OozingMagma"
-		],
-		"client": [
-			"net.a11v1r15.oozingmagma.OozingMagmaClient"
 		]
 	},
 	"mixins": [
