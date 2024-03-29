@@ -26,7 +26,7 @@
 	"authors": [
 		"A11v1r15"
 	],
-	"description": "Atomic mod that makes the Oozing effect spawn Magma cubes in the Nether",
+	"description": "Atomic mod that makes the Oozing effect spawn Magma Cubes in the Nether",
 	"mixins": [
 		"oozing-magma.mixins.json"
 	]
