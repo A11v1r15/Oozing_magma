@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "oozing-magma",
+	"version": "${version}",
+	"name": "Oozing Magma",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"A11v1r15"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/oozing-magma/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.a11v1r15.oozingmagma.OozingMagma"
+		],
+		"client": [
+			"net.a11v1r15.oozingmagma.OozingMagmaClient"
+		]
+	},
+	"mixins": [
+		"oozing-magma.mixins.json",
+		{
+			"config": "oozing-magma.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener" : "oozing-magma.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": ">=1.20.5-alpha.24.13.a",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
