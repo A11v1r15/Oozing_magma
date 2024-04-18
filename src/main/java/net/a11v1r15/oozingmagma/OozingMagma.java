@@ -24,6 +24,8 @@ public class OozingMagma implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		Registry.register(Registries.STATUS_EFFECT, new Identifier("oozing-magma", "oozing_magma"), OOZING_MAGMA);
+		OozingMagmaPotions.registerPotions();
+		OozingMagmaPotions.registerPotionRecipes();
 
 		LOGGER.info("Do not put slimes in the microwave");
 	}
